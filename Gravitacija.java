@@ -5,7 +5,7 @@ public class Gravitacija {
         System.out.print("Vnesite nadmorsko visino: ");
         double n = sc.nextDouble();
 
-		System.out.printf("Gravitacijski pospesek je: %f m/s^2", GetPospesek(n));
+		System.out.printf("Na nadmorski visini %.2fm je gravitacijski pospesek : %fm/s^2", n, GetPospesek(n));
     }
 	public static double GetPospesek(double visina)
 	{
